@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: install npm
-        run: pwd
+        run: npm init -y
       - name: Hello world action step
         uses: ./ # Uses an action in the root directory
         id: hello
