@@ -1,0 +1,24 @@
+{
+  "name": "javascript-githubactions",
+  "version": "1.0.0",
+  "description": "Repository is used to write custom GitHub actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakilsuvarna/javascript-githubactions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakilsuvarna/javascript-githubactions/issues"
+  },
+  "homepage": "https://github.com/shakilsuvarna/javascript-githubactions#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
